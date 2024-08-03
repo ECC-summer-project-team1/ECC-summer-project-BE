@@ -39,4 +39,8 @@ out/
 /build
 /gradle/wrapper/caches
 *.xlsx
+*.jar
+*.lock
+.gradle/
+**/build/
 
