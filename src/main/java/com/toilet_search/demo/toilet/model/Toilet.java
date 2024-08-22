@@ -1,25 +1,25 @@
 package com.toilet_search.demo.toilet.model;
 
 
-// import jakarta.persistence.Entity;
-// import jakarta.persistence.GeneratedValue;
-// import jakarta.persistence.GenerationType;
-// import jakarta.persistence.Id;
-// import lombok.AllArgsConstructor;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-// @Entity
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Builder
 public class Toilet {
-	// @Id
-	// @GeneratedValue(strategy = GenerationType.IDENTITY)
-	// private Long id; // 기본 키
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id; // 기본 키
 
 	private String category; // 구분
 	private String reference; // 근거
