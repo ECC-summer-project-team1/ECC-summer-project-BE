@@ -27,4 +27,5 @@ spring:
     password: 'Alswn1858!'
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    url: jdbc:mysql://127.0.0.1:3306/toilet_db
+    url: jdbc:mysql://my-rds-instance.c7ooggw06nqt.ap-northeast-2.rds.amazonaws.com
+  :3306/my_rds_name
